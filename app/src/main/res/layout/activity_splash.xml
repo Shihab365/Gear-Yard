@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:background="@drawable/splash_square_1"
+        android:layout_width="300dp"
+        android:layout_height="70dp">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:background="@drawable/splash_square_2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/milkyniceclean"
+                android:text="GEAR"
+                android:textColor="#31d37c"
+                android:textSize="37sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:fontFamily="@font/milkyniceclean"
+                android:textSize="37sp"
+                android:textColor="#FFFFFF"
+                android:text="YARD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:layout_height="120dp">
+
+    <LinearLayout
+        android:layout_marginLeft="-30dp"
+        android:background="@drawable/notify_shape"
+        android:layout_width="40dp"
+        android:layout_height="match_parent">
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/notify_tvTitle_id"
+                android:gravity="center|left"
+                android:fontFamily="@font/romerio"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                android:textColor="@color/light_green"
+                android:textStyle="bold"
+                android:text="Enjoy 50% Discount From bKash Payment!"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/notify_tvDetails_id"
+                android:gravity="center|left|top"
+                android:fontFamily="@font/young"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textColor="#414040"
+                android:textStyle="normal"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is not simply random text."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/notify_tvDate_id"
+                android:paddingRight="7dp"
+                android:gravity="center|right"
+                android:fontFamily="@font/romerio"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textColor="@color/light_red"
+                android:textStyle="bold"
+                android:text="January 15,2021"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
