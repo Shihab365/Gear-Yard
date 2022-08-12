@@ -1,5 +1,5 @@
 # Gear Yard
-This is a E-Commerce app. Admin can insert product from admin panel. User can order, add cart, add favorite and buy product by bKash or Card. Data are stored in MySQL database.
+This is a E-Commerce Android Mobile app. Admin can insert product from admin panel. User can order, add cart, add favorite and buy product by bKash or Card. Data are stored in MySQL database.
 
 
 ## Demo
