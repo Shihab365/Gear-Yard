@@ -4,7 +4,7 @@ This is a E-Commerce Android Mobile app. Admin can insert product from admin pan
 
 ## Demo
 
-App Demo: https://www.youtube.com/watch?v=XmH6kF8bLv8
+Application Demo: https://www.youtube.com/watch?v=XmH6kF8bLv8
 
 Admin Panel Demo: https://www.youtube.com/watch?v=E9IzOxUOVyQ
 
